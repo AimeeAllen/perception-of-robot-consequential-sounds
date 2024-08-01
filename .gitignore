@@ -1,0 +1,8 @@
+# All files to ignore for this project
+
+# Local Private Files
+.private/*
+
+# Developer Local Files
+# Venv
+.*venv/*
