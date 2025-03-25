@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Effects of Consequential Sounds on Human-Perception of Robots">
+        content="Consequential Sounds of Robots">
   <meta name="keywords" content="Robots, HRI, Psychoacoustics, Consequential Sounds">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Effects of Consequential Sounds on Human-Perception of Robots</title>
+  <title>Consequential Sounds of Robots: Effects on Human-Perception and Properties of Sounds Affecting These Perceptions</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -25,6 +25,21 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+
+  <!-- Custom styles for results and plots -->
+  <style type="text/css">
+    .positive {
+      color: #009933;
+      font-weight:bold;
+    }
+    .negative {
+      color: #b30000;
+      font-weight:bold;
+    }
+    .plot-sound-property {
+      max-width: 330px
+    }
+  </style>
 </head>
 
 <body>
@@ -53,54 +68,19 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Effects of Consequential Sounds on<br>Human-Perception of Robots</h1>
+          <h1 class="title is-1 publication-title">Consequential Sounds of Robots:<br>Effects on Human-Perception and<br>Properties of Sounds Affecting These Perceptions</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="">Aimee Allen</a><sup>1</sup>,</span>
+              <a href="https://www.linkedin.com/in/aimeeallen/">Aimee Allen</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="">Tom Drummond</a><sup>2</sup>,</span>
+              <a href="https://orcid.org/0000-0001-8204-5904">Tom Drummond</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="">Dana Kuli&#263;</a><sup>1</sup>,</span>
+              <a href="https://orcid.org/0000-0002-4169-2141">Dana Kuli&#263;</a><sup>1</sup>,</span>
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Monash University (Faculty of Engineering),</span>
-            <span class="author-block"><sup>2</sup>University of Melbourne (Faculty of Engineering)</span>
-          </div>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2406.02938"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2406.02938"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=boRRRVGH5zA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
-            </div>
-
+            <span class="author-block"><sup>2</sup>University of Melbourne (School of Computing and Information Systems)</span>
           </div>
         </div>
       </div>
@@ -108,6 +88,7 @@
   </div>
 </section>
 
+<!-- Video Carousel - 5 robot CS Videos -->
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -143,60 +124,149 @@
   </div>
 </section>
 
+<!-- Combined Experiment Overview -->
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-            <p>
-            Many people expect robots to move fairly quietly, or make pleasant ''beep boop'' sounds or jingles similar to what they have observed in videos of robots.
-             Unfortunately, this expectation of quietness does not match reality, as robots make machine sounds, known as 'consequential sounds', as they move and operate.
-              With robots becoming more prevalent in the workplace, homes and public spaces, understanding the sounds produced by robots and how these sounds are perceived by 
-              people is becoming increasingly important for positive human robot interactions (HRI).
-            </p>
-            <p>
-            This research project examines the results from 182 participants (858 trials) investigating how human perception of robots is changed by consequential sounds.
-             In a between-participants study, participants in the sound condition group were shown 5 videos of different robots and asked their opinions on the robots and the sounds they made.
-              This was compared to participants in the control condition who experienced completely silent videos. The presence of consequential sounds correlated with
-               significantly more negative perceptions of robots, including increased negative 'associated affects', feeling more distracted, and being less willing to
-                colocate in a shared environment with robots.
-            </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
 
-    <!-- Supplementary Video -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Supplementary Video</h2>
-        <div class="publication-video">
-          <iframe id="video_supp" src="https://www.youtube.com/embed/boRRRVGH5zA?si=1rgzuUW1RIgOAAjJ"
-            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Supplementary Video -->
-
-    <!-- YouTube Playlist -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Trial Videos</h2>
+      <h2 class="title is-3">Robot Consequential Sounds Research Project</h2>
         <div class="content has-text-justified">
-          <p>Participants viewed 5 videos of robots which contained the robot consequential sounds (CS condition) or were completely silent (NS condition). 
-            A playlist of these 10 trial stimulus videos is available on <a href="https://www.youtube.com/playlist?list=PLvSyIAn4l8otTy1mAyKURQz7v4hOcwUt_">Youtube</a>.
+          <p>
+            This website provides an overview of a mass-participant experiment conducted to examine how consequential sounds produced by robots impact human-perception of robots, 
+              and thus influence human robot interactions and robot adoption in shared spaces.
+              The detailed results of this research appear in the following two publications:
+
+            <div class="column has-text-centered">
+              <!-- RAL Quantitative Paper -->
+              <div class="publication-links">
+                <span class="title"><span class="link-block is-size-5 publication-title"><a href="#RAL_Paper">Paper 1 shows the negative effects of<br>consequential sounds on human-perceptions (quantitative analysis):</a><br></span></span>
+                <!-- Published PDF Link. -->
+                <span class="link-block">
+                  <a href="https://doi.org/10.1109/LRA.2025.3546097"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- arXiv PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2406.02938"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=boRRRVGH5zA"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+              </div>
+
+              <!-- HRI'25 Qualitative Paper -->
+              <div class="publication-links">
+                <span class="title"><span class="link-block is-size-5 publication-title"><br><a href="#HRI25_Paper">Paper 2 identifies key sound properties (from qualitative responses) causing these perceptions, which can be targeted to improve sounds produced by robots:</a><br></span></span>
+                <!-- Published PDF Link. -->
+                <span class="link-block">
+                  <a href="https://dl.acm.org/doi/10.5555/3721488.3721504"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- arXiv PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2502.02051"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=Pjmg84fANZc"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            An overview of the experiment and summary results from each paper appear below.<br><br>
           </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experiment Overview-->
+    <div class="columns has-text-justified">
+      <div class="column is-full-width">
+        <h3 class="title is-4">Experiment Overview</h3>
+        <div class="content has-text-justified">
+          <p>
+          Robots make machine sounds known as 'consequential sounds' as they move and operate. How do these sounds effect people's perception of robots and their desire to colocate with robots?
+          <br><br>For this experiment, 182 participants experienced videos of 5 different robots, and answered questionnaires on their perception of the robots.
+            Half the participants experienced the robot consequential sounds, whilst the other half formed the control group and experienced the same videos played completely silently.
+          </p>
+          <!-- Questionnaires -->
+          <p>
+            <a href="static/docs/questionnaires_robot_consequential_sounds.pdf">Questionnaires used for this research can be found here</a>.
+          </p>
+          <!--/ Questionnaires -->
+
+          <!-- Cohort Characteristics -->
+          <p>
+            Diversity of cohort characteristics for the 182 participants can be seen in the below figures.
+          </p>
+
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/project/cohort/cohort_agegroup.png"
+                alt="Breakdown of recruited cohort by age-group"/>
+              <p>Age-group of participants</p>
+            </div>
+
+            <div class="column is-3 has-text-centered">
+              <img src="./static/images/project/cohort/cohort_gender.png"
+                alt="Breakdown of recruited cohort by gender"/>
+              <p>Participant genders</p>
+            </div>
+
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/project/cohort/cohort_robot_exp.png"
+                alt="Breakdown of recruited cohort by how frequently they experience robots"/>
+              <p>Frequency that participants experience robots</p>
+            </div>
+          </div>
+          <!--/ Cohort Characteristics -->
+
+          <p>For futher details on the experiment, see the above papers.</p>
       </div>
       </div>
     </div>
-    <!--/ YouTube Playlist -->
+    <!--/ Experiment Overview --> 
 
-    <!-- Sound Profiling  -->
-    <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Robot Sound Profiles</h2>
+    <!-- Robot Sounds - Videos -->
+    <div class="columns has-text-justified">
+        <div class="column is-full-width">
+          <h3 class="title is-4">Robot Sound Profiles</h3>
           <div class="content has-text-justified">
                 <p>
                 <b>Consequential sounds</b> are the unintentional noises that a machine produces itself as it moves and operates
@@ -204,182 +274,596 @@
                  In terms of robots, consequential sounds are the audible 'noises' produced by the actuators of the robot as the robot
                  performs its normal operation, and the robot can not function without making these sounds.                 
                 </p>
-                <p><b>See the above videos for audible examples of robot consequential sounds.</b>
+                <p>Participants were exposed to <b>5 videos of robots which contained robot consequential sounds</b> (CS condition) or were completely silent (control NS condition). 
+                  <a href="https://www.youtube.com/playlist?list=PLvSyIAn4l8otTy1mAyKURQz7v4hOcwUt_">A playlist of these 10 trial stimulus videos is available on Youtube</a>.
                 </p>
                 <p>
-                Sound features (as heard in the videos) are visualised in the below spectrogram, which shows the frequency spectra of the sound stimuli used in the experiment.
-                 Each line represents a different robot/trial. The first 5 seconds display the environmental sound baseline, followed by a black strip no sound separator.
+                  Sound features (as heard in the videos) are visualised in the below spectrogram, which shows the frequency spectra of the sound stimuli used in the experiment.
+                  Each line represents a different robot/trial. The first 5 seconds display the environmental sound baseline, followed by a black strip no sound separator.
                   The remaining 19-20 seconds are the sounds heard by participants (robot + environment sounds) for each trial.
-                   Sound intensities between rows have been scaled to allow comparison between robots.
-                </p>
-                <p>
-                    <img src="./static/images/spectrogram_scaled_intensity.png"
-                        id="image_spectrogram"
-                        alt="Spectrogram of Robot Consequential Sounds"/>
+                  Sound intensities between rows have been scaled to allow comparison between robots.
                 </p>
           </div>
         </div>
     </div>
-    <!--/ Sound Profiling  -->
+    <!--/ Robot Sounds - Videos -->
+
+    <!-- Spectrogram -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <img src="./static/images/project/spectrogram_5_robots.png"
+          id="image_spectrogram"
+          alt="Spectrogram of Robot Consequential Sounds"/>
+      </div>
+    </div>
+    <!--/ Spectrogram -->
 
   </div>
 </section>
 
-<!-- Additional Results -->
-<section class="section" id="results">
-    <div class="container is-max-desktop">
-        
-        <div class="columns has-text-justified">
-            <div class="column is-full-width">
-            <h2 class="title is-3">Additional Results</h2>
+<!-- RAL Quantitative Paper -->
+<section class="section" id="RAL_Paper">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3 is-full-width">PAPER 1: Robots Have Been Seen and Not Heard:<br>Effects of Consequential Sounds on Human-Perception of Robots<br><br></h2>
+    </div>
 
-            <!-- Cohort Characteristics -->
-            <h3 class="title is-4">Cohort Characteristics</h3>
-                <div class="content has-text-justified">
-                    <p>
-                    Cohort characteristics for the 182 participants can be seen in the below figures.
-                    </p>
+    <div class="columns is-centered has-text-centered">
+      <!-- Published PDF Link. -->
+      <span class="link-block">
+        <a href="https://doi.org/10.1109/LRA.2025.3546097"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+          </span>
+          <span>Paper</span>
+        </a>
+      </span>
+      <!-- arXiv PDF Link. -->
+      <span class="link-block">
+        <a href="https://arxiv.org/abs/2406.02938"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="ai ai-arxiv"></i>
+          </span>
+          <span>arXiv</span>
+        </a>
+      </span>
+      <!-- Video Link. -->
+      <span class="link-block">
+        <a href="https://www.youtube.com/watch?v=boRRRVGH5zA"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="fab fa-youtube"></i>
+          </span>
+          <span>Video</span>
+        </a>
+      </span>
+    </div>
 
-                    <div class="columns is-vcentered">
-                        <div class="column is-fullwidth is-large has-text-centered">
-                          <img src="./static/images/cohort_agegroup.png"
-                               alt="Breakdown of recruited cohort by age-group"/>
-                          <p>Age-group of participants</p>
-                        </div>
-
-                        <div class="column is-3 has-text-centered">
-                            <img src="./static/images/cohort_gender.png"
-                                 alt="Breakdown of recruited cohort by gender"/>
-                            <p>Participant genders</p>
-                        </div>
-
-                        <div class="column is-fullwidth is-large has-text-centered">
-                            <img src="./static/images/cohort_robot_exp.png"
-                                 alt="Breakdown of recruited cohort by how frequently they experience robots"/>
-                            <p>Frequency that participants experience robots</p>
-                        </div>
-                    </div>
-                </div>
-            <!--/ Cohort Characteristics -->
-
-            <!-- Additional Figures -->
-            <h3 class="title is-4">Data Distribution</h3>
-                <div class="content has-text-justified">
-                    <!-- Boxen -->
-                    <p>
-                    These additional visualisations are intended to supplement the main figures from the <a href="https://arxiv.org/abs/2406.02938">paper</a>.
-                    </p>
-                    <p>
-                    The below boxen plots show the data distribution differences between 'Consequential Sound' versus 'No Sound' (control) conditions for all 4 question scales:
-                     (a) 'Associated Affect' induced by the robot, (b) 'Distracted' by the robot, (c) 'Colocate' with the robot, and (d) 'Like' the robot.
-                      Tails of distributions are shown as progressively smaller boxes.
-                       Dots represent outliers ranging from a single point (light dot) to small single-digit concentrations of outliers (darker dots).
-                        All scales are from (1) = negative perception to (7) = positive perception.
-                    </p>
-
-                    <div class="columns is-vcentered">
-                        <div class="column is-fullwidth is-large has-text-centered">
-                          <img src="./static/images/plot_boxen_condition.png"
-                               alt="Boxen plot comparing sound to no-sound conditions"/>
-                          <p>Sound-condition only</p>
-                        </div>
-
-                        <div class="column is-fullwidth is-large has-text-centered">
-                            <img src="./static/images/plot_boxen_robots.png"
-                                 alt="Boxen plot comparing sound to no-sound conditions between robots"/>
-                            <p>Robot plus sound-condition</p>
-                        </div>
-                    </div>
-                    <!--/ Boxen -->
-
-                    <!-- Full figures with data points -->
-                      <p>
-                      The below plots show the data distributions across robots and 'Consequential Sound' versus 'No Sound' (control) conditions for all 4 scales (a) 'Associated Affect' induced by the robot, (b) 'Distracted' by the robot, (c) 'Colocate' with the robot, and (d) 'Like' the robot
-                        All scales are from (1) = negative perception to (7) = positive perception.
-                        Means (coloured dots) and 95% confidence intervals (vertical lines) are shown between condition pairs.
-                        The overlaid data-points are for scales calculated from multiple questions, thus some points have Likert scores at 1/4 or 1/3 between integer values when scales included 4 or 3 questions respectively.
-                      </p>
-  
-                      <div class="columns is-vcentered">
-                          <div class="column is-fullwidth is-large has-text-centered">
-                            <b><p>Data distributions between sound-condition across the 4 human-perception scales</p></b>
-                            <img src="./static/images/plot_condition_w_points.png"
-                                 alt="Combined plot comparing sound to no-sound condition"/>
-                          </div>
-                      </div>
-
-                      <div class="columns is-vcentered">
-                          <div class="column is-fullwidth is-large has-text-centered">
-                              <b><p>Data distributions between sound-condition for each of the 5 robots across the 4 human-perception scales</p></b>
-                              <img src="./static/images/plot_robot-condition_w_points.png"
-                                   alt="Combined plot comparing sound to no-sound condition between robots"/>
-                          </div>
-                      </div>
-                    <!--/ Full figures with data points -->
-
-                </div>
-            <!--/ Additional Figures -->
-
-            </div>
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4"><br>Paper Abstract</h3>
+        <div class="content has-text-justified">
+            <p>
+              Robots make compulsory machine sounds, known as `consequential sounds', as they move and operate.
+              As robots become more prevalent in workplaces, homes and public spaces, understanding how sounds produced by robots affect human-perceptions of these robots is becoming increasingly important to creating positive human robot interactions (HRI).
+            </p>
+            <p>
+              This paper presents the results from 182 participants (858 trials) investigating how human-perception of robots is changed by consequential sounds.
+              In a between-participants study, participants in the sound condition were shown 5 videos of different robots and asked their opinions on the robots and the sounds they made.
+              This was compared to participants in the control condition who viewed silent videos.
+            </p>
+            <p>
+              Consequential sounds correlated with significantly more negative perceptions of robots, including increased negative 'associated affects', feeling more distracted, and being less willing to colocate in a shared environment with robots.
+            </p>
         </div>
 
-    </div>
-</section>
-<!--/ Additional Results -->
-
-<!-- Supplementary Materials -->
-<section class="section" id="supplementary">
-    <div class="container is-max-desktop">
-        
-        <div class="columns has-text-justified">
-            <div class="column is-full-width">
-            <h2 class="title is-3">Supplementary Materials</h2>
-
-            <!-- Regression Results -->
-            <h3 class="title is-4">Regression Results</h3>
-                <div class="content has-text-justified">
-                    <p>
-                      Least-squares linear regression was used to analyse the effect of participant condition (sound versus no sound) and robot on the 4 human-perception of robots scales.
-                      A copy of the full regression results can be found <a href="static/docs/Regression_Results.txt">here</a>.
-                    </p>
-                </div>
-            <!--/ Questionnaires -->
-            
-            <!-- Questionnaires -->
-            <h3 class="title is-4">Questionnaires</h3>
-                <div class="content has-text-justified">
-                    <p>
-                    A copy of the questionnaires used for this research can be found <a href="static/docs/questionnaires_robots-have-been-seen-and-not-heard.pdf">here</a>.
-                    </p>
-                </div>
-            <!--/ Questionnaires -->
-
-            </div>
+        <!-- Supplementary Video -->
+        <div class="publication-video">
+          <iframe id="video_supp" src="https://www.youtube.com/embed/boRRRVGH5zA?si=1rgzuUW1RIgOAAjJ"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
+        <!--/ Supplementary Video -->
 
+      </div>
     </div>
-</section>
-<!--/ Supplementary Materials -->
+    <!--/ Abstract. -->
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>
-@article{allen2024robotsseenheard,
-    title={Robots Have Been Seen and Not Heard: Effects of Consequential Sounds on Human-Perception of Robots}, 
-    author={Aimee Allen and Tom Drummond and Dana Kulic},
-    year={2024},
-    eprint={2406.02938},
-    archivePrefix={arXiv},
-    url={https://arxiv.org/abs/2406.02938}, 
-}
-    </code></pre>
+    <!-- Summary Methods/Results -->
+    <div class="columns has-text-justified" id="results-paper1">
+      <div class="column is-full-width">
+      <h3 class="title is-4">Summary Methods and Results</h3>
+
+      <!-- Hypotheses -->
+      <h4 class="title is-size-5">Research Hypotheses</h4>
+        <div class="content has-text-justified">
+          <p>
+            This paper tests the following two hypotheses:
+          </p>
+          <p>
+            <b>Hypothesis 1 (H1):</b> Consequential sounds lead to more negative human perceptions of the robot such as: negative feelings (e.g. being uncomfortable), distraction, less willingness to colocate with robots, and/or disliking the robot.
+          </p>
+          <p>
+            <b>Hypothesis 2 (H2):</b> Some robots are perceived more negatively than other robots due to their consequential sounds.
+          </p>
+        </div>
+      <!--/ Hypotheses -->
+
+      <!-- Scales -->
+      <h4 class="title is-size-5">Human-Perception of Robot Scales</h4>
+        <div class="content has-text-justified">
+          <p>
+            Eleven Likert questions ranging from negative (1) to positive (7) perception were grouped into 4 thematic scales representing critical aspects of perception towards robots. The following scales were used for the analysis:
+            <ul>
+              <li><b>'associated-affect'</b> (anxious, agitated, unsafe, uncomfortable) induced by the robot (4 questions)</li>
+              <li><b>'distracted'</b> by the robot (1 question)</li>
+              <li>desire to <b>'colocate'</b> (home, workplace, public space) with the robot (3 questions)</li>
+              <li><b>'like'</b> (physical appearance, movements of, overall) the robot (3 questions)</li>
+            </ul>
+          </p>
+        </div>
+      <!--/ Scales -->
+
+      <!-- Regression -->
+      <h4 class="title is-size-5">Regression Analysis</h4>
+        <div class="content has-text-justified">
+          <p>
+            Least-squares linear regression was used to analyse the effect of the participant condition (sound versus no sound) and robot predictors on the 4 human-perception of robots scales.
+            The interaction between the two predictors was initially included, with results showing that almost all interaction effects were non-significant <i>p</i> &isin; [.194, .934],
+            except for two borderline significant effects for 'Associated Affect' (Quadrotor with sound) (<i>β</i> = -0.413, <i>t</i> = -1.98, <i>p</i> = .048) and 'Distracted' (Pepper with sound) (<i>β</i> = 0.447, <i>t = 1.87</i>, <i>p</i> = .061).
+            Following best practices to improve model precision, the interaction effects were removed from the regression model as they were not significant.
+          </p>
+          <p>
+            Please see the paper for full details on the regression analysis methodology.
+          </p>
+          <p>
+            A summary table of regression results appears below. <a href="static/docs/Regression_Results.txt">Detailed regression results can be downloaded here</a>.
+          </p>
+        </div>
+        <div class="columns">
+          <div class="column is-fullwidth is-large has-text-centered">
+            <b><p></p></b>
+            <img src="./static/images/negative_effects/table_regression_results.png"
+              alt="Table with summary regression results for the 4 human-perception scales" style="max-width: 450px"/>
+          </div>
+        </div>
+      <!--/ Regression -->
+
+      <!-- TLDR Results -->
+      <div class="content has-text-justified" style="border: 5px solid black; padding: 10px">
+        <h4 class="title is-size-5">TLDR Research Findings</h4>
+        <p>
+          <b>Hypothesis 1</b> is supported.
+          Consequential sounds were found to significantly affect how people perceive the robots, leading to people feeling more distracted, experiencing stronger negative affects, and reducing desire to colocate with robots.
+          However the presence of sound showed no significant effect on how much the robots were liked.
+          <br><br><b>These significant negative human-perceptions of robots are likely to have an unwanted effect on robot adoption in shared spaces.</b>
+        </p>
+        <p>
+          <b>Hypothesis 2</b> had insufficient evidence to support it.
+          H2 suggests that different robots will have a more extreme effect on human-perception due to their consequential sounds.
+          The interaction effects between robot and condition showed only two borderline significant effects, 'associated affect' (Quadrotor with sound) and 'distracted' (Pepper with sound).
+          Further research is required to understand the effects of consequential sounds at an individual robot level.
+        </p>
+      </div>
+      <!--/ TLDR Results -->
+
+      <!-- Figures -->
+      <h4 class="title is-size-5">Data Distribution</h4>
+        <div class="content has-text-justified">
+          <!-- Full figures with data points -->
+          <p>
+            The below plots show the data distributions across robots and 'Consequential Sound' versus 'No Sound' (control) conditions for all 4 scales
+            (a) 'Associated Affect' induced by the robot, (b) 'Distracted' by the robot, (c) 'Colocate' with the robot, and (d) 'Like' the robot.
+            All scales are from (1) = negative perception to (7) = positive perception.
+            Means (coloured dots) and 95% confidence intervals (vertical lines) are shown between condition pairs.
+            Overlaid data-points show the scale values for each trial. As these were calculated from multiple questions, some points have Likert scores at 1/4 or 1/3 between integer values when scales included 4 or 3 questions respectively.
+          </p>
+
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p>Data distributions between sound-condition across the 4 human-perception scales</p></b>
+              <img src="./static/images/negative_effects/plot_scale_condition_w_points.png"
+                alt="Combined plot comparing sound to no-sound condition"/>
+            </div>
+          </div>
+
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p>Data distributions between sound-condition for each of the 5 robots across the 4 human-perception scales</p></b>
+              <img src="./static/images/negative_effects/plot_scale_robot-condition_w_points.png"
+                alt="Combined plot comparing sound to no-sound condition between robots"/>
+            </div>
+          </div>
+          <!--/ Full figures with data points -->
+
+          <!-- Boxen -->
+          <p>
+            The below boxen plots provide alternate visualisations to suplement the above figures and main figures in the paper.
+            Tails of distributions are shown as progressively smaller boxes.
+            Dots represent outliers ranging from a single point (light dot) to small single-digit concentrations of outliers (darker dots).
+          </p>
+
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p>Distribution by Sound-condition</p></b>
+              <img src="./static/images/negative_effects/plot_boxen_scale_condition.png"
+                alt="Boxen plot comparing sound to no-sound conditions"/>
+            </div>
+
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p>Distribution by Robot plus Sound-condition</p></b>
+              <img src="./static/images/negative_effects/plot_boxen_scale_robot-condition.png"
+                alt="Boxen plot comparing sound to no-sound conditions between robots"/>
+            </div>
+          </div>
+          <!--/ Boxen -->
+
+        </div>
+      <!--/ Figures -->
+      </div>
+    </div>
+    <!--/ Summary Methods/Results -->
+
+    <div class="container is-max-desktop content" id="BibTeX-paper1">
+      <h3 class="title is-4">BibTeX</h3>
+        <pre><code>@article{Allen2025RAL,
+  author={Allen, Aimee and Drummond, Tom and Kulić, Dana},
+  journal={IEEE Robotics and Automation Letters},
+  title={Robots Have Been Seen and Not Heard: Effects of Consequential Sounds on Human-Perception of Robots},
+  year={2025},
+  volume={10},
+  number={4},
+  pages={3980-3987},
+  doi={10.1109/LRA.2025.3546097}
+}</code></pre>
+    </div>
+
   </div>
 </section>
+<!--/ RAL Quantitative Paper -->
+
+<!-- HRI'25 Qualitative Paper -->
+<section class="section" id="HRI25_Paper">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3 is-full-width">PAPER 2: Sound Judgment:<br>Properties of Consequential Sounds<br>Affecting Human-Perception of Robots<br><br></h2>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <!-- Published PDF Link. -->
+      <span class="link-block">
+        <a href="https://dl.acm.org/doi/10.5555/3721488.3721504"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+          </span>
+          <span>Paper</span>
+        </a>
+      </span>
+      <!-- arXiv PDF Link. -->
+      <span class="link-block">
+        <a href="https://arxiv.org/abs/2502.02051"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="ai ai-arxiv"></i>
+          </span>
+          <span>arXiv</span>
+        </a>
+      </span>
+      <!-- Video Link. -->
+      <span class="link-block">
+        <a href="https://www.youtube.com/watch?v=Pjmg84fANZc"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="fab fa-youtube"></i>
+          </span>
+          <span>Video</span>
+        </a>
+      </span>
+    </div>
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4"><br>Paper Abstract</h3>
+        <div class="content has-text-justified">
+            <p>
+              Positive human-perception of robots is critical to achieving sustained use of robots in shared environments.
+              One key factor affecting human-perception of robots are their sounds, especially the consequential sounds which robots (as machines) must produce as they operate.
+            </p>
+            <p>
+              This paper explores qualitative responses from 182 participants to gain insight into human-perception of robot consequential sounds.
+              Participants viewed videos of different robots performing their typical movements, and responded to an online survey regarding their perceptions of robots and the sounds they produce.
+              Topic analysis was used to identify common properties of robot consequential sounds that participants expressed liking, disliking, wanting or wanting to avoid being produced by robots.
+            </p>
+            <p>
+              Alongside expected reports of disliking high pitched and loud sounds, many participants preferred informative and audible sounds (over no sound) to provide predictability of purpose and trajectory of the robot.
+              Rhythmic sounds were preferred over acute or continuous sounds, and many participants wanted more natural sounds (such as wind or cat purrs) in-place of machine-like noise.
+            </p>
+            <p>
+              The results presented in this paper support future research on methods to improve consequential sounds produced by robots by highlighting features of sounds that cause negative perceptions,
+              and providing insights into sound profile changes for improvement of human-perception of robots, thus enhancing human robot interaction.
+            </p>
+        </div>
+
+        <!-- Supplementary Video -->
+        <div class="publication-video">
+          <iframe id="video_supp" src="https://www.youtube.com/embed/Pjmg84fANZc?si=XbbZ8nujGfSvNQWP"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!--/ Supplementary Video -->
+
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Summary Methods/Results -->
+    <div class="columns has-text-justified" id="results-paper2">
+      <div class="column is-full-width">
+      <h3 class="title is-4">Summary Methods and Results</h3>
+      <p>
+        Robots must make consequential sounds, however the exact sounds produced can potentially be modified e.g. by dampening individual components, noise cancelling, or sound augmentations.
+        Psychoacoustics research shows that humans don't notice every sound around them, i.e. adding some new sounds can hide or enhance others.
+      </p><br>
+      <p>
+        Understanding what sound properties are liked (wanted) versus disliked (should be avoided) is necessary to effectively implement any of these solutions.
+      </p><br>
+
+      <!-- Research Questions -->
+      <h4 class="title is-size-5">Research Questions</h4>
+        <div class="content has-text-justified">
+          <p>
+            <b>Research Question 1 (RQ1):</b> What properties of robot consequential sounds affect human-perceptions of robots, either negatively or positively?
+          </p>
+          <p>
+            <b>Research Question 2 (RQ2):</b> How would people prefer robots to sound instead?
+          </p>
+        </div>
+      <!--/ Research Questions -->
+
+      <!-- Analysis -->
+      <h4 class="title is-size-5">Qualitative Analysis</h4>
+        <div class="content has-text-justified">
+          <p>
+            Exploratory analysis of the qualitative data was conducted using NVivo QDA tool.
+            Category analysis (topic modelling) methods were used to code the data on 3 dimensions - question priming, response valence and sound property topic code. Details on each dimension appear below.
+            <br><br>
+            <b>Question Priming (2 codes):</b>
+              <br>Sound Primed versus General Questions (not specifically asking about sound)
+            <br><br>
+            <b>Valence (4 codes):</b>
+            <ul>
+              <li>Dislike <i>Existing Sounds</i></li>
+              <li>Like <i>Existing Sounds</i></li>
+              <li>Avoid in Sounds <i>(prefer robots not to make)</i></li>
+              <li>Want Instead <i>(prefer robots to make)</i></li>
+            </ul>
+            <b>Sound Property (16 codes):</b>
+              <br> An iterative approach was used to uncover the sound property codes from the full set of qualitative responses.
+              Firstly inductive coding was used across the data, using a combination of auto coding methods, word clouds, and manually reading responses.
+              Domain knowledge was used to filter all uncovered codes to form 16 codes relevant to the research questions (see below graph of codes).
+          </p>
+
+          <h5 class="title is-size-5 has-text-centered">Sound Codes separated into 5 clusters of related properties</h5>
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/sound_property_codes.png"
+                alt="The 16 sound property codes used for analysis, separated into 5 clusters of related properties; pitch, timing, type of sound, volume and subjective qualities." style="max-width: 85%"/>
+            </div>
+          </div>
+          <p>
+            Using the above 3 dimensions, 35% of the data was manually coded, before autocoding the rest of the data, and finally checking samples for accuracy.
+            Each coded reference was counted, forming a quantitative representation of participant views expressed in their qualitative comments.
+          </p>
+        </div>
+      <!--/ Analysis -->
+
+      <!-- TLDR Results -->
+      <div class="content has-text-justified" style="border: 5px solid black; padding: 10px">
+        <h4 class="title is-size-5">TLDR Research Findings</h4>
+        <p>
+          Research findings provide the following insights for robot designers and researchers into promising robot consequential-sound profile changes for improvement of human-perception of robots and HRI:
+          <ul>
+            <li><span class="negative">High pitched</span> and <span class="negative">loud</span> sounds are disliked</li>
+            <li><span class="positive">informational</span> and <span class="positive">audible</span> sounds are preferred (over no sound) to provide predictability of purpose and trajectory of the robot</li>
+            <li><span class="positive">Rhythmic sounds</span> are preferred over <span class="negative">acute</span> or <span class="negative">continuous</span> sounds</li>
+            <li>People want more <span class="positive">natural sounds</span> (such as wind or cat purrs) in-place of <span class="negative">machine-like noise</span></li>
+          </ul>
+        </p>
+      </div>
+      <!--/ TLDR Results -->
+
+      <!-- Figures -->
+      <h4 class="title is-size-5">Visualisations of Results</h4>
+        <div class="content has-text-justified">
+          <!-- Priming + Valence -->
+          <p>
+            The below two sets of plots help to visualise the above summary as well as many other insights.
+          </p>
+          <p>
+            The following four plots separate responses by question priming (sound primed versus general) and whether participants were responding to existing robot consequential sounds (which sound properties are liked versus disliked)
+             or providing preferences for how they would prefer robots to sound (properties to 'avoid' and what people 'want instead'). Preferences for how robots should sound are additionally separated by sound (CS) versus no-sound (NS) participant condition.
+          </p>
+
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_by_priming_valence/plot_primed_existing.png"
+                alt="Plot of responses on exisitng consequential sounds given for sound primed questions"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_by_priming_valence/plot_primed_preferred_cond.png"
+                alt="Plot of responses as to how robots should sound given for sound primed questions"/>
+            </div>
+          </div>
+
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_by_priming_valence/plot_general_existing.png"
+                alt="Plot of responses on exisitng consequential sounds given for general un-primed questions"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_by_priming_valence/plot_general_preferred_cond.png"
+                alt="Plot of responses as to how robots should sound given for general un-primed questions"/>
+            </div>
+          </div>
+          <!--/ Priming + Valence -->
+
+          <!-- Sound Property Plots -->
+          <br><p>
+            The following plots separate the same data presented in the paper into a separate graph for each of the 16 sound property codes, thus facilitating easy comparison of participant valences towards each sound property.
+              These additional visualisations are supplementary to the main figures from the paper, and are presented to assist people when designing modifications for sounds produced by robots.
+          </p><br><br>
+
+          <!-- Pitch (Frequency) -->
+          <h4 class="title is-size-5 has-text-centered">Pitch (Frequency)</h4>
+          <div class="columns is-vcentered">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/valences_towards_CS.png"
+                alt="Valences Legend for Sound Code Plots" class="plot-sound-property"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_pitch_high.png"
+                alt="Plot of valenced responses for High Pitch Sound Code" class="plot-sound-property"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_pitch_low.png"
+                alt="Plot of valenced responses for Low Pitch Sound Code" class="plot-sound-property"/>
+            </div>
+          </div><br>
+
+          <!-- Timing -->
+          <h4 class="title is-size-5 has-text-centered">Timing of Sound</h4>
+          <div class="columns">
+            <div class="column is-fullwidth has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_acute.png"
+                alt="Plot of valenced responses for Acute Timing Sound Code" class="plot-sound-property"/>
+              <b><p>Acute refers to sounds which are sudden</p></b>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_constant.png"
+                alt="Plot of valenced responses for Constant Timing Sound Code" class="plot-sound-property"/>
+              <b><p>Constant refers to sounds which stay the same over a period of time</p></b>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_rhythmic.png"
+                alt="Plot of valenced responses for Rhythmic Timing Sound Code" class="plot-sound-property"/>
+              <b><p>Rhythmic sounds have a noticeable pattern</p></b>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_phase_in_or_out.png"
+                alt="Plot of valenced responses for Phasing In and Out Sound Code" class="plot-sound-property"/>
+              <b><p>Gradually increaing volume before the main sound, then decreasing volume afterwards</p></b>
+            </div>
+          </div><br>
+
+          <!-- Volume (Intensity) -->
+          <h4 class="title is-size-5 has-text-centered">Volume (Intensity)</h4>
+          <div class="columns">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_loud.png"
+                alt="Plot of valenced responses for Loud Volume Sound Code" class="plot-sound-property"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_quiet.png"
+                alt="Plot of valenced responses for Quiet Volume Sound Code" class="plot-sound-property"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_audible.png"
+                alt="Plot of valenced responses for Audible Volume Sound Code" class="plot-sound-property"/>
+              <b><p>Sounds are audible (not completely silent)</p></b>
+            </div>
+          </div><br>
+
+          <!-- Type of Sound -->
+          <h4 class="title is-size-5 has-text-centered">Type of Sound</h4>
+          <div class="columns">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_machine.png"
+                alt="Plot of valenced responses for Machine Type Sound Code" class="plot-sound-property"/>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_natural_or_animal.png"
+                alt="Plot of valenced responses for Natural or Animal Type Sound Code" class="plot-sound-property"/>
+              <b><p>Natural or Animal sounds include: wind, water, cat, dog etc</p></b>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_informational.png"
+                alt="Plot of valenced responses for Informational Type Sound Code" class="plot-sound-property"/>
+              <b><p>Informational sounds contain details on the state of the robot such as position or task</p></b>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <b><p></p></b>
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_broadspectrum.png"
+                alt="Plot of valenced responses for Broadspectrum Type Sound Code" class="plot-sound-property"/>
+            </div>
+          </div><br>
+
+          <!-- Voice + Subjective -->
+          <h4 class="title is-size-5 has-text-centered">Voices and Subjective Qualities</h4>
+          <div class="columns">
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_artificial_voice.png"
+                alt="Plot of valenced responses for Artificial Voice Sound Code" class="plot-sound-property"/>
+              <p>*Not consequential sounds, but were specifically mentioned unprompted</p>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_human_voice.png"
+                alt="Plot of valenced responses for Human Voice Sound Code" class="plot-sound-property"/>
+              <p>*Not consequential sounds, but were specifically mentioned unprompted</p>
+            </div>
+            <div class="column is-fullwidth is-large has-text-centered">
+              <img src="./static/images/sound_properties/plot_per_sound_code/plot_subjective_qualities.png"
+                alt="Plot of valenced responses for Subjective Qualities Sound Code" class="plot-sound-property"/>
+                <p>Example subjective qualities include: meditative, friendly, creepy, distracting (see paper for details)</p>
+            </div>
+          </div>
+
+          <!--/ Sound Property Plots -->
+
+        </div>
+      <!--/ Figures -->
+      </div>
+    </div>
+    <!--/ Summary Methods/Results -->
+
+    <div class="container is-max-desktop content" id="BibTeX-paper2">
+      <h3 class="title is-4">BibTeX</h3>
+        <pre><code>@inproceedings{Allen2025HRI,
+  author = {Allen, Aimee and Drummond, Tom and Kuli\'{c}, Dana},
+  title = {Sound Judgment: Properties of Consequential Sounds Affecting Human-Perception of Robots},
+  year = {2025},
+  publisher = {IEEE Press},
+  booktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages = {94-102},
+  numpages = {9},
+  location = {Melbourne, Australia},
+  series = {HRI '25}
+}</code></pre>
+    </div>
+
+  </div>
+</section>
+<!--/ HRI'25 Qualitative Paper -->
 
 <footer class="footer">
   <div class="container">
-    
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
